@@ -104,7 +104,7 @@ export const TreatmentTrendsView: React.FC<TreatmentTrendsViewProps> = ({
       return {
         year: d.year,
         x,
-        North: { y: yNorth, value: valNorth },
+        Northeast: { y: yNorth, value: valNorth },
         Midwest: { y: yMid, value: valMid },
         South: { y: ySouth, value: valSouth },
         West: { y: yWest, value: valWest },
