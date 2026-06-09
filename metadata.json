@@ -1,0 +1,8 @@
+{
+  "name": "OxyContin & Opioid Analysis Dashboard",
+  "description": "An interactive public health dashboard visualizing the historical distribution of OxyContin, CDC opioid overdose mortality rates, and SAMHSA treatment admissions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
