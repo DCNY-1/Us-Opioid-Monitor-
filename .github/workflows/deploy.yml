@@ -6,6 +6,10 @@ on:
     branches: ["main"] # Or "master" depending on your default branch name
   workflow_dispatch:
 
+# Set environment variables for the entire workflow
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 # Grant GITHUB_TOKEN write access to trigger Pages deployments
 permissions:
   contents: read
@@ -29,7 +33,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
 
       - name: Install dependencies
         run: |
